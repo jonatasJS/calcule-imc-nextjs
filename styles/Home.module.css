@@ -1,0 +1,273 @@
+.conteudo {
+  padding: 0px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.caminhada {
+  width: 30%;
+  height: 30%;
+}
+
+.titulo {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.peso,
+.altura {
+  font-family: 'Indie Flower', cursive;
+  /*text-align: center;*/
+  padding: 15px;
+  margin: 0 auto;
+  height: 45px;
+  max-width: 50%;
+  border: none;
+  border-radius: 3px;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.peso::-webkit-outer-spin-button,
+.peso::-webkit-inner-spin-button,
+.altura::-webkit-outer-spin-button,
+.altura::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.peso,
+.altura {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+.peso:focus,
+.altura:focus {
+  outline: 1px #009995;
+}
+
+.peso::-webkit-input-placeholder,
+.altura::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.peso:-moz-placeholder,
+.altura:-moz-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.peso::-moz-placeholder,
+.altura::-moz-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.peso:-ms-input-placeholder,
+.altura:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.calcularBtn {
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 45px;
+  max-width: 50%;
+  border: none;
+  border-radius: 3px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #009885;
+}
+
+.menssage {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.rodape {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+/*responsivo*/
+/* @media screen and (min-width: 320px) {
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+
+  .conteudo {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -135px;
+  }
+
+  .peso,
+  .altura {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+
+  .conteudo {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -135px;
+  }
+
+  .peso,
+  .altura {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+
+  .conteudo {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -135px;
+  }
+
+  .peso,
+  .altura {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+
+  .conteudo {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -125px;
+  }
+
+  .peso,
+  .altura {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 610px;
+    height: 580px;
+    background-image: url(https://cdn.dribbble.com/users/207059/screenshots/1820812/fatboywalkingdribbble2.gif);
+    background-repeat: no-repeat;
+  }
+
+  .conteudo {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -125px;
+  }
+
+  .peso,
+  .altura {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #run {
+    position: absolute;
+    top: -269px;
+    left: -623px;
+    z-index: -999;
+    width: 0;
+    height: 0;
+    background-image: none;
+  }
+
+  .conteudo {
+    padding: 0px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -125px;
+  }
+
+  .peso,
+  .altura {
+    margin-left: 40px;
+  }
+} */
